@@ -1,0 +1,16 @@
+# C:/Proyectos/Backend/Spring boot/emma-music/src/main/resources/application.yml
+app:
+  python:
+    # ¡Esta es la corrección! Usamos la ruta absoluta al ejecutable correcto.
+    # Las comillas simples son importantes para que YAML maneje bien las barras invertidas.
+    executable: 'C:\Program Files\WindowsApps\PythonSoftwareFoundation.PythonManager_25.0.240.0_x64__3847v3x7pw1km\python.exe'
+    scripts:
+      search: 'scripts/python/ytmusic_search.py'
+      stream: 'scripts/python/yt_stream.py'
+      download: 'scripts/python/yt_download.py'
+  
+  # Configuración del sistema híbrido de música
+  hibrido:
+
+    limite-resultados: 20
+  
